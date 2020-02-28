@@ -3,7 +3,7 @@
 
 
     <property name="src.java.dir" location="./src/calccode"/>
-    <property name="src.test.dir" location="./test"/>
+    <property name="src.test.dir" location="./src/calctest"/>
     <property name="result.dir" location="./target"/>
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
