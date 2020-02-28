@@ -29,7 +29,7 @@ public class testtTest {
 	}
 
 	@Test
-	void testAdd_TwoPositiveInt_positive() {
+	public void testAdd_TwoPositiveInt_positive() {
 		// Arrange
 		int a = 1;
 		int b = 2;
@@ -43,7 +43,7 @@ public class testtTest {
 	}
 	
 	@Test
-	void testAdd_TwonegativeInt_negative() {
+	public void testAdd_TwonegativeInt_negative() {
 		// Arrange
 		int a = -1;
 		int b = -2;
@@ -54,7 +54,7 @@ public class testtTest {
 		
 	}
 	@Test
-	void testAdd_PositiveNegativeInt_negative() {
+	public void testAdd_PositiveNegativeInt_negative() {
 		// Arrange
 		int a = 1;
 		int b = -2;
@@ -65,7 +65,7 @@ public class testtTest {
 		
 	}
 	@Test
-	void testAdd_PositiveNegativeInt_positive() {
+	public void testAdd_PositiveNegativeInt_positive() {
 		// Arrange
 		int a = -1;
 		int b = 2;
@@ -76,7 +76,7 @@ public class testtTest {
 		
 	}
 	@Test
-	void testAdd_TwoPositiveNegativeEqualInt_zero() {
+	public void testAdd_TwoPositiveNegativeEqualInt_zero() {
 		// Arrange
 		int a = -1;
 		int b = 1;
